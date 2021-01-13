@@ -1,0 +1,42 @@
+//************************************
+// PSEUDOCODE PLANNING FOLLOWS
+
+// VARIABLES--
+// let computerSelection = "";
+// let playerSelection = "";
+// let playerError = false;
+// let computerRoll = 0;
+// let playerScore = 0;
+// let computerScore = 0;
+
+// function computerPlay() to randomly return Rock, Paper, or Scissors 
+    // random math from 1-3
+    // switch statement cases assigning 1-3 to rock, paper, or scissors to computerSelection
+
+// try block to catch user errors for invalid entries for playerSelection.
+    // function playerPlay() to assign user input to Rock, Paper, or Scissors  
+        // prompt player to select rock, paper, or scissors    
+            // if (playerSelection != "ROCK" || "PAPER" || "SCISSORS") 
+                //throw "please enter rock, paper, or scissors"
+        // assign player input to playerSelection and convert to uppercase
+    
+// function playRound(playerSelection, computerSelection)
+    // if statements that evaluate selections based on playerSelection
+        // returns a string that announces winner and player selections
+        // playerScore++ or computerScore++ as appropriate, unless draw
+
+// for loop that repeats until gameRound == 5
+    // function game() to play five rounds of the game and announce the winner
+        // computerPlay()
+        // playerPlay()
+        // playRound(playerSelection, computerSelection))
+        // announce winner and player selections
+      
+
+// function announceWinner() to announce winner once for loop ends
+    // if else for playerScore < computerScore, "you lose!" else "you win!"
+    // return you win/lose `Player Score: {playerScore}; Computer Score: {computerScore}.`
+    
+
+// END OF PSEUDOCODE
+//************************************
